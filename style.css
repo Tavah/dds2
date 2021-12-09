@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@200;300;500;600&display=swap');
+
+body {
+    font-family: 'Readex Pro', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 200;
+    background: #000000;
+    color: #f1f1f1;
+}
+
+body h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-top: 3rem;
+}
+
+section {
+    padding: 3em;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+section blockquote {
+    font-size: 2em;
+    width: 30%;
+    margin-top: 17%;
+    position: absolute;
+}
+
+section blockquote span {
+    width: 100%;
+    background: red;
+    display: block;
+    height: 5px;
+    margin-top: 20px;
+}
+
+section img {
+    position: absolute;
+}
+
+section img:nth-of-type(1) {
+    width: 40%;
+    right: 0%;
+    top: 10%;
+}
+
+section img:nth-of-type(2) {
+    width: 25%;
+    right: 40%;
+    top: 50%;
+}
+
+section:nth-child(odd) {
+    background: #1a1a1a;
+}
+
+.sticky {
+    background: rgb(0, 0, 0) !important;
+  }
+  
+.percentage {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+}
+  
+#box {
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    border: 5px solid lightgray;
+    margin: auto;
+    top: 0; left: 0; bottom: 0; right: 0;
+}
